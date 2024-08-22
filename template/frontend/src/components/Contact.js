@@ -37,13 +37,6 @@ const Contact = () => {
                 </span>
               </a>
             </div>
-
-            <a href='https://velog.io/@sejokim/posts' target='_blank' rel='noreferrer'>
-              <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/icons/velog.svg' alt='' width='24px' height='24px' className='mr-1' />
-                Velog
-              </span>
-            </a>
           </div>
         </div>
 
