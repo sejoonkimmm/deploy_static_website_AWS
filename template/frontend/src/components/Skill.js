@@ -58,21 +58,6 @@ const Skill = () => {
         </div>
       </div>
     </section>
-    <section className='my-28 px-5'>
-        <header className='text-2xl font-bold pt-10'>
-          <h2>Certifications</h2>
-        </header>
-        <div className='my-7 grid gap-5 grid-cols-2 md:grid-cols-2'>
-          <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='AWS DevOps Professional Certification'>
-            <img src='./images/icons/dop-c02.png' alt='AWS DevOps Professional' loading='lazy' className='w-32 mb-1' width='128px' height='128px' />
-            <span>AWS Certified DevOps Engineer - Professional</span>
-          </div>
-          <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label='CKA Certification'>
-            <img src='./images/icons/cka.png' alt='CKA Certification' loading='lazy' className='w-32 mb-1' width='128px' height='128px' />
-            <span>Certified Kubernetes Administrator (CKA)</span>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
